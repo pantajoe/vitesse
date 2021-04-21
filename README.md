@@ -1,3 +1,20 @@
+# Changes compared to the original [Vitesse Template](https://github.com/antfu/vitesse)
+
+## Replaced
+
+- 🎨 WindiCSS replaced with TailwindCSS (plugins: [`@tailwindcss/forms`](https://github.com/tailwindlabs/tailwindcss-forms), [`@tailwindcss/aspect-ratio`](https://github.com/tailwindlabs/tailwindcss-aspect-ratio), [`@tailwindcss/typography`](https://github.com/tailwindlabs/tailwindcss-typography))
+
+## Added
+
+- 🎨 [Headless UI](https://headlessui.dev) integration (powered by 📦 [Components auto importing](./src/components))
+  - Refer to Headless UI components without importing them by using `<HeadlessUI.{ComponentName} ...>`
+
+## Removed
+
+- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+
+# Original README
+
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
