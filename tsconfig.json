@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "module": "ESNext",
-    "target": "es2016",
-    "lib": ["DOM", "ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
     "strict": true,
     "esModuleInterop": true,
     "incremental": true,
@@ -13,6 +13,8 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "sourceMap": true,
     "types": [
       "vite/client",
       "vite-plugin-vue-layouts/client"
@@ -21,5 +23,6 @@
       "~/*": ["src/*"]
     }
   },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["dist", "node_modules"]
 }
