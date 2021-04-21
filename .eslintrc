@@ -1,3 +1,8 @@
 {
-  "extends": "@antfu"
+  "extends": "@antfu",
+  "rules": {
+    "max-len": ["error", { "code": 120, "ignoreRegExpLiterals": true, "ignoreUrls": true }],
+    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"]
+  }
 }
