@@ -35,14 +35,6 @@ export default defineConfig({
         // https://github.com/antfu/vite-plugin-icons
         ViteIconsResolver({
           componentPrefix: '',
-          enabledCollections: [
-            // Core UI Brands (https://icones.js.org/collection/cib)
-            'cib',
-            // Heroicons Outline (https://icones.js.org/collection/heroicons-outline)
-            'heroicons-outline',
-            // Heroicons Solid (https://icones.js.org/collection/heroicons-solid)
-            'heroicons-solid',
-          ],
         }),
 
         // import headlessui components (https://headlessui.dev)
