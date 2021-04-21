@@ -6,6 +6,7 @@ specifiers:
   '@iconify/json': ^1.1.331
   '@intlify/vite-plugin-vue-i18n': ^2.1.2
   '@tailwindcss/aspect-ratio': ^0.2.0
+  '@tailwindcss/forms': ^0.3.2
   '@tailwindcss/typography': ^0.4.0
   '@types/node': ^14.14.41
   '@types/nprogress': ^0.2.0
@@ -48,6 +49,7 @@ devDependencies:
   '@iconify/json': 1.1.331
   '@intlify/vite-plugin-vue-i18n': 2.1.2_vite@2.2.1+vue-i18n@9.1.6
   '@tailwindcss/aspect-ratio': 0.2.0
+  '@tailwindcss/forms': 0.3.2_tailwindcss@2.1.1
   '@tailwindcss/typography': 0.4.0_tailwindcss@2.1.1
   '@types/node': 14.14.41
   '@types/nprogress': 0.2.0
@@ -517,6 +519,15 @@ packages:
 
   /@tailwindcss/aspect-ratio/0.2.0:
     resolution: {integrity: sha512-v5LyHkwXj/4lI74B06zUrmWEdmSqS43+jw717pkt3fAXqb7ALwu77A8t7j+Bej+ZbdlIIqNMYheGN7wSGV1A6w==}
+    dev: true
+
+  /@tailwindcss/forms/0.3.2_tailwindcss@2.1.1:
+    resolution: {integrity: sha512-aj2/rJsGb2whAZ/BQWHWWQRSbhH0r/l1ozOByiv+ZNjBD84GMvb5dhAyfpeasFky+EJrAwX5eaqft8NQMZFWvA==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0'
+    dependencies:
+      mini-svg-data-uri: 1.2.3
+      tailwindcss: 2.1.1_02ae6d0a5709fa7b5d38be2fad8eebc6
     dev: true
 
   /@tailwindcss/typography/0.4.0_tailwindcss@2.1.1:
@@ -3047,6 +3058,10 @@ packages:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /mini-svg-data-uri/1.2.3:
+    resolution: {integrity: sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==}
     dev: true
 
   /minimalistic-assert/1.0.1:

@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors');
 const typography = require('@tailwindcss/typography');
 const aspectRatio = require('@tailwindcss/aspect-ratio');
+const forms = require('@tailwindcss/forms');
 
 module.exports = {
   mode: 'jit',
@@ -48,6 +49,7 @@ module.exports = {
   },
   plugins: [
     aspectRatio,
+    forms({ strategy: 'class' }),
     typography,
   ],
 };
