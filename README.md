@@ -8,10 +8,13 @@
 
 - 🎨 [Headless UI](https://headlessui.dev) integration (powered by 📦 [Components auto importing](./src/components))
   - Refer to Headless UI components without importing them by using `<HeadlessUI.{ComponentName} ...>`
+- 🗒 [Markdown It](https://github.com/markdown-it/markdown-it)
+  - add composable `useMarkdownIt` that returns a `MarkdownIt` renderer to use inside a Vue component with `v-html` (inside `~/logic` module)
 
 ## Removed
 
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+- 🗒 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
 # Original README
 
@@ -49,8 +52,6 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 - 😃 [Use icons from any icon sets, with no compromise](./src/components)
 
 - 🌍 [I18n ready](./locales)
-
-- 🗒 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
